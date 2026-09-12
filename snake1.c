@@ -80,6 +80,8 @@ int main(int argc, char **argv)
     wrefresh(snakewin);
     place_fruit();
 
+    srand(time(NULL));
+
     bool loop = TRUE;
     while(loop)
     {                
